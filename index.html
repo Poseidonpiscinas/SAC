@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAC</title>
+    <link rel="icon" href="imagens/poseidon ico.png" type="image/x-icon">
+        <link rel="icon" href="imagens/poseidon ico.png" sizes="16x16" />
+        <link rel="icon" href="imagens/poseidon ico.png" sizes="32x32" type="image/png" />
+        <link rel="icon" href="imagens/poseidon ico.png" sizes="48x48" type="image/png" />
+        <link rel="apple-touch-icon" href="imagens/poseidon ico.png">
+</head>
+<body>
+    <style>
+body{
+    margin:-2% 0% -1% 0%;
+    background-color:rgb(218, 241, 236) ;
+    text-align: center;
+    box-sizing: border-box;
+}
+.cabecalho{
+    background-image: url(imagens/fundo\ SAC.webp);
+    margin-top: -5%;
+    border-width: 0.7px;
+    border-color: #000;
+    border-radius: 5px;
+    height: auto;
+}
+.voltar{
+    height: 25px;
+    margin: 5% 0% 0% -85%;
+}
+.bandeira{
+    position: absolute;
+    margin: -108px 0% 0% 40%;
+    height: 80px;
+    transition: 1s;
+}
+.bandeira:hover{
+    position: absolute;
+    margin: -68px 0% 0% 40%;
+    height: 80px;
+    transition: 1s;
+}
+.logo{
+    border-radius: 40px;
+    margin: 9%;
+    position: relative;
+    height: 300px;
+}
+.sac{
+    margin: 20px;
+    border-radius: 40px;
+}
+.form{
+    background-image: url(imagens/agua.webp);
+    display: inline-grid;
+    padding: 30px 60px;
+    margin: 50px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+label{
+    margin: 10px;
+    font-weight: bold;
+}
+.botaoenv:hover {
+    text-decoration: underline;
+    border-style: solid;
+}
+.icon{
+    margin: 60px;
+    height: 25px;
+}
+.atendimento{
+    height: 100px;
+}
+.clivenexp{
+    width: 100px;
+}
+.inf{
+    padding: 5px;
+    height: 15px;
+}
+img.doacao {
+    display: grid;
+    transform: rotate(-45deg);
+    margin: 36px;
+    height: 71px;
+    justify-content: end;
+}
+a{
+    display: contents;
+}
+.direitos{
+    font-size: 9px;
+    text-align: center;
+    margin: 0px 0px 1% 0px;
+}
+h6 img{
+    margin: 0px 0px -0.5% 0px;
+    height: 20px;
+}
+    </style>
+    <div class="cabecalho">
+        <p><a href="https://infinitycooperative.github.io/Poseidon/"><img alt="botão voltar" src="imagens/voltar pt.webp" class="voltar"></a></p>
+        <img src="imagens/brasil pt.webp" alt="brasil" class="bandeira"><br><br>    
+        <img src="imagens/logo com fundo.webp" alt="logo" class="logo">
+    <h1>Seja bem vindo ao</h1>
+    <h1>Serviço de atendimento ao cliente.</h1>
+    
+        <img src="imagens/sac img.webp" alt="sac" class="sac">
+    <h2>Abaixo temos um formulario onde voçê pode nos enviar a mensagem que deseja.</h2>
+    <h2>Nós da Infinity Co. agradeçemos o seu contato.</h2>
+    <br><br>
+    <div class="form">
+        <h3>Formulário de envio</h3>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <p><Label>Nome Completo</Label></p> 
+                <p><input type="text" name="name" placeholder="Seu Nome Completo" required></p>
+                <p><Label>Seu email para contato</Label></p>
+                <p><input type="text" name="email" placeholder="Seu Email" required/></p>
+                <p><Label>Sua mensagem</Label></p>
+                <p><textarea name="message" cols="25" rows="10" placeholder="Escreva sua mensagem" required></textarea></p>
+                <input type="text" name="honeypot" style="display:none">
+                <input type="hidden" name="accessKey" value="421010f3-2237-43f5-8ea0-b342e7e64d89">
+                <input type="hidden" name="subject" value="Contact us from - kayque.cardoso.9@gmail.com" />
+                <input type="hidden" name="replyTo" value="@">
+                <input type="hidden" name="redirectTo" value="https://infinitycooperative.github.io/pagina-de-agradecimento/">
+                <input type="submit" value="Enviar" class="botaoenv"/>
+            </form>
+        </div>
+        
+    <a href="https://infinitycooperative.github.io/Doacoes/"><img src="imagens/icon pix.webp" alt="" class="doacao"></a>
+    <h6 class=direitos>Todos os direitos estão reservados à Poseidon</h6>
+    </div>
+</body>
+</html>
