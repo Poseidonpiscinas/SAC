@@ -13,32 +13,29 @@
 <body>
     <style>
 body{
-    margin:-2% 0% -1% 0%;
-    background-color:rgb(218, 241, 236) ;
+    margin:0px;
+    background-image: url(imagens/agua.webp);
     text-align: center;
     box-sizing: border-box;
 }
 .cabecalho{
-    background-image: url(imagens/agua.webp);
-    margin-top: -5%;
-    border-width: 0.7px;
-    border-color: #000;
-    border-radius: 5px;
-    height: auto;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
 }
 .voltar{
+    position: absolute;
     height: 25px;
-    margin: 5% 0% 0% -85%;
+    margin: 16px 0% 0% -83%;
 }
 .bandeira{
     position: absolute;
-    margin: -108px 0% 0% 36%;
+    margin: -40px 0% 0% 87%;
     height: 80px;
     transition: 1s;
 }
 .bandeira:hover{
-    position: absolute;
-    margin: -68px 0% 0% 36%;
+    margin: 0px 0% 0% 87%;
     height: 80px;
     transition: 1s;
 }
@@ -103,16 +100,16 @@ h6 img{
 }
     </style>
     <div class="cabecalho">
-        <p><a href="https://poseidonpiscinas.github.io/Home/"><img alt="botão voltar" src="imagens/voltar pt.webp" class="voltar"></a></p>
-        <img src="imagens/brasil pt.webp" alt="brasil" class="bandeira"><br><br>    
+        <a href="https://poseidonpiscinas.github.io/Home/"><img alt="botão voltar" src="imagens/voltar pt.webp" class="voltar"></a>
+        <img src="imagens/brasil pt.webp" alt="brasil" class="bandeira">    
         <img src="imagens/Poseidon pt.webp" alt="logo" class="logo">
+    </div>
     <h1>Seja bem vindo ao</h1>
     <h1>Serviço de atendimento ao cliente.</h1>
     
         <img src="imagens/sac img.webp" alt="sac" class="sac">
     <h2>Abaixo temos um formulario onde voçê pode nos enviar a mensagem que deseja.</h2>
     <h2>Nós da Infinity Co. agradeçemos o seu contato.</h2>
-    <br><br>
     <div class="form">
         <h3>Formulário de envio</h3>
             <form action="https://api.staticforms.xyz/submit" method="post">
